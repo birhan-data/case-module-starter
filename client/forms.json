@@ -117,5 +117,33 @@
       "push": true,
       "pull": true
     }
+  },
+  {
+    "id" : "record-abstraction",
+    "src" : "./assets/record-abstraction/form.html",
+    "description" : "Record Abstraction",
+    "listed" : false,
+    "title" : "Record Abstraction",
+    "icon" : "assignment",
+    "type" : "form",
+    "searchSettings" : {
+      "shouldIndex" : false,
+      "primaryTemplate" : "",
+      "secondaryTemplate" : "",
+      "variablesToIndex" : [
+      ]
+    },
+    "customSyncSettings": {
+      "enabled": false,
+      "push": false,
+      "pull": false,
+      "excludeIncomplete":false
+    },
+    "couchdbSyncSettings": {
+      "enabled": true,
+      "filterByLocation": true,
+      "push": true,
+      "pull": true
+    }
   }
 ]

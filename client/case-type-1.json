@@ -53,6 +53,23 @@
           "repeatable": false 
         }
       ]
+    },
+    {
+      "id": "dr-visit",
+      "name": "Doctor's Visit",
+      "repeatable": true,
+      "required": true,
+      "eventFormDefinitions": [
+        {
+          "id": "record-abstraction",
+          "formId": "record-abstraction",
+          "forCaseRole": "role-2",
+          "name": "Record Abstraction",
+          "required": true,
+          "repeatable": false,
+          "autoPopulate": true
+        }
+      ]
     }
   ]
 }
