@@ -50,7 +50,7 @@
           "name": "Registration for Role 2",
           "autoPopulate": true,
           "required": true,
-          "repeatable": false 
+          "repeatable": false
         }
       ]
     },
@@ -68,6 +68,23 @@
           "required": true,
           "repeatable": false,
           "autoPopulate": true
+        }
+      ]
+    },
+    {
+      "id": "sae",
+      "name": "SAE",
+      "repeatable": false,
+      "required": true,
+      "eventFormDefinitions": [
+        {
+          "id": "sae-form",
+          "formId": "sae-form",
+          "forCaseRole": "role-2",
+          "name": "SAE",
+          "required": true,
+          "repeatable": false,
+          "autoPopulate": false
         }
       ]
     }
