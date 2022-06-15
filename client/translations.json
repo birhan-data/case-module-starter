@@ -1,0 +1,12 @@
+[
+  {
+    "label": "English",
+    "languageCode": "en",
+    "languageDirection": "ltr"
+  },
+  {
+    "label": "Amharic",
+    "languageCode": "am",
+    "languageDirection": "ltr"
+  }
+]
