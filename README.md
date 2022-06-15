@@ -34,7 +34,7 @@ cat data/id_rsa.pub
 
 Now you are ready to create a new Tangerine Group based on the Github repository.
 ```
-docker exec create-group "My Group" <your git repository's SSH url>
+docker exec create-group tangerine "My Group" <your git repository's SSH url>
 ```
 
 To keep the repository on your server and on Github in sync, run the `crontab -e` command and add the following entry replacing `<path to tangerine>` with the path to the tangerine folder on your server.
